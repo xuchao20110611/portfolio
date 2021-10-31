@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 *{
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     background-color: powderblue;
 }
 nav ul{
@@ -30,6 +30,7 @@ nav li{
 nav li a{
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Oswald', sans-serif;
 }
 nav{
     padding: 25px 0;
