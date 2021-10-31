@@ -112,7 +112,7 @@ main h1{
     width:44%;
     margin-left: 5%;
     margin-right: 0%;
-    height: 180px;
+    height: 150px;
 }
 
 .pair>img:nth-child(3){
@@ -120,14 +120,14 @@ main h1{
     width:44%;
     margin-left: 0%;
     margin-right: 5%;
-    height: 180px;
+    height: 150px;
 }
 
 .spots{
     display:grid;
     grid-template-columns: 5% 90% 5%;
     grid-template-rows: auto auto auto;
-    row-gap: 5%;
+    row-gap: 15px;
 }
 
 
