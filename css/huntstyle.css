@@ -102,6 +102,7 @@ main h1{
     grid-column: 3/span 1;
     color: transparent;
     word-break: break-all;
+
 }
 .huntcontent{
     display: grid;
