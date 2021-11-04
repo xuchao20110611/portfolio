@@ -1,8 +1,8 @@
 html{
     scroll-behavior: smooth;
 }
-*{
-    font-family: sans-serif;
+body{
+    font-family: "Lora",sans-serif;
     background-color: powderblue;
 }
 nav ul{
@@ -25,22 +25,23 @@ header{
 
 nav li{
     display: inline;
-    padding-right: 20px;
+
 }
 nav li a{
-    padding-left: 20px;
-    padding-right: 20px;
+
     font-family: 'Oswald', sans-serif;
 }
 nav{
-    padding: 25px 0;
+    padding: 3px 5% 3px 5%;
     text-align: right;
+
 }
 
 .skip>a{
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     position: absolute;
+    background-color: blanchedalmond;
     top:-20px;
 }
 .skip>a:focus{
@@ -69,18 +70,23 @@ footer{
     background-color: lightblue ;
     text-align: center;
     padding: 10px;
-
+    font-family: "Raleway";
 }
+
 
 .contactinfo h1{
     text-align: center;
     font-size: 40px;
     font-family: sans-serif;
+    margin-top: 15px;
 }
 
 .title{
     text-decoration: underline;
     text-align: center;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 input{
     width: 100%;
@@ -100,3 +106,13 @@ input{
     margin-right: 25%;
 }
 
+.QandA{
+    margin:9px 0 0 0;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+input{
+    margin-bottom: 9px;
+}

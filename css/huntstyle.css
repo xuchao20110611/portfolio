@@ -1,6 +1,10 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    font-family: "Lora",sans-serif;
+    background-color: powderblue;
+}
 nav ul{
     list-style-type: none;
     display: flex;
@@ -9,7 +13,6 @@ nav ul{
     align-self: center;
     justify-content: space-between;
     width:100%;
-
     padding: 0;
 
 }
@@ -19,25 +22,26 @@ header{
     flex-wrap: nowrap;
     background-color: blanchedalmond;
 }
+
 nav li{
     display: inline;
-    padding-right: 20px;
-}
 
+}
 nav li a{
-    padding-left: 20px;
-    padding-right: 20px;
+
     font-family: 'Oswald', sans-serif;
 }
 nav{
-    padding: 25px 0;
+    padding: 3px 5% 3px 5%;
     text-align: right;
+
 }
 
 .skip>a{
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     position: absolute;
+    background-color: blanchedalmond;
     top:-20px;
 }
 .skip>a:focus{
@@ -62,51 +66,71 @@ header li{
 }
 
 
-
-
-.title{
-    text-decoration: underline;
-    text-align: center;
-}
-
-body{
-    font-family:  sans-serif;
-    background-color: powderblue;
-    text-align:justify;
-    text-justify:auto;
-}
-
 footer{
     background-color: lightblue ;
     text-align: center;
     padding: 10px;
+    font-family: "Raleway";
 }
+
+
+
+
 main h1{
+    text-align: center;
     font-size: 40px;
     font-family: sans-serif;
+    margin-top: 15px;
+}
+.title{
+    text-decoration: underline;
     text-align: center;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 .groupintro{
     display: grid;
     grid-template-columns: 30% 5% 65%;
     row-gap: 40px;
-    margin: 30px 10px 30px 10px;
+
+    padding: 30px 2% 30px 5%;
+    background-color: white;
 }
 #grouppic{
     grid-column: 1/span 1;
 }
 .Explain{
     grid-column: 3/ span 1;
+    text-align:justify;
+    text-justify:auto;
 }
 .urlans{
-    grid-column: 3/span 1;
+    grid-column: 2/span 1;
     color: transparent;
     word-break: break-all;
+    padding-right: 15%;
+    padding-left: 6%;
 
+}
+.urlans>p{
+
+    margin-top: 15%;
 }
 .huntcontent{
     display: grid;
-    grid-template-columns: 70% 5% 25%;
-    row-gap: 40px;
-    margin: 30px 10px 30px 10px;
+    grid-template-columns: 75% 25%;
+    text-align:justify;
+    text-justify:auto;
+
+    padding: 0 ;
+}
+
+.challenge{
+    padding: 20px 5% 20px 5%;
+
+}
+.huntwhite
+{
+    background-color: white;
 }

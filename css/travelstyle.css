@@ -1,6 +1,10 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    font-family: "Lora",sans-serif;
+    background-color: powderblue;
+}
 nav ul{
     list-style-type: none;
     display: flex;
@@ -9,7 +13,6 @@ nav ul{
     align-self: center;
     justify-content: space-between;
     width:100%;
-
     padding: 0;
 
 }
@@ -19,24 +22,26 @@ header{
     flex-wrap: nowrap;
     background-color: blanchedalmond;
 }
+
 nav li{
     display: inline;
-    padding-right: 20px;
+
 }
 nav li a{
-    padding-left: 20px;
-    padding-right: 20px;
+
     font-family: 'Oswald', sans-serif;
 }
 nav{
-    padding: 25px 0;
+    padding: 3px 5% 3px 5%;
     text-align: right;
+
 }
 
 .skip>a{
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     position: absolute;
+    background-color: blanchedalmond;
     top:-20px;
 }
 .skip>a:focus{
@@ -61,27 +66,34 @@ header li{
 }
 
 
-
 footer{
     background-color: lightblue ;
     text-align: center;
     padding: 10px;
+    font-family: "Raleway";
 }
 
 main h1{
     font-size: 40px;
     font-family: sans-serif;
     text-align: center;
+    margin-top: 5%;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Explain{
+    margin-top:1%;
 }
 .title{
     text-decoration: underline;
     text-align: center;
+    margin-top: 3%;
+    font-size: 20px;
 }
 
-*{
-    font-family:  sans-serif;
-    background-color: powderblue;
-}
+
 .spot{
     width:80%;
     margin-left: 10%;
@@ -103,6 +115,20 @@ main h1{
 .fullscene{
     width: 90%;
     margin-left: 5%;
+    margin-right: 5%;
+    visibility: hidden;
+
+
+}
+img{
+    transition-property:  border-radius, border;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+img:hover{
+
+    border-radius:25px;
+
 }
 .pair{
     display: inline;
@@ -128,9 +154,86 @@ main h1{
     grid-template-columns: 5% 90% 5%;
     grid-template-rows: auto auto auto;
     row-gap: 15px;
+    margin-top: 3%;
+
 }
 
 
 .spot{
     grid-column: 2/span 1;
+}
+
+
+
+
+
+
+
+
+
+.flip-card a{
+    background-color: powderblue;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    height:auto;
+    width: 90%;
+
+    margin: 5% 5%;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner,
+.flip-card:active .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+    background-color: #14234b;
+    color: white;
+    color: black;
+}
+
+
+/* Style the back side */
+
+.flip-card-back {
+    background-color: #14234b;
+    color: white;
+    transform: rotateY(180deg);
 }
