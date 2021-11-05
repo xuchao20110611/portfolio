@@ -110,7 +110,9 @@ main h1{
 }
 .bascontent{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
 #self_introduction_selfie{
     width: 40%;
