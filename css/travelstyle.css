@@ -173,7 +173,7 @@ img:hover{
 
 
 
-.flip-card a{
+.flip-card a,.flip-card-back a{
     background-color: powderblue;
 }
 
