@@ -8,7 +8,7 @@ body{
 nav ul{
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     align-self: center;
     justify-content: space-between;
@@ -71,6 +71,7 @@ footer{
     text-align: center;
     padding: 10px;
     font-family: "Raleway";
+    margin-top: 10px;
 }
 main{
     margin-left: 5%;
