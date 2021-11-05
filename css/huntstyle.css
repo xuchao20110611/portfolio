@@ -71,7 +71,13 @@ footer{
     text-align: center;
     padding: 10px;
     font-family: "Raleway";
-    margin-top: 10px;
+
+}
+a:visited{
+    color: #551A8B;
+}
+a{
+    color: #551A8B;
 }
 
 
@@ -92,20 +98,31 @@ main h1{
 }
 .groupintro{
     display: grid;
-    grid-template-columns: 30% 5% 65%;
+    grid-template-columns: 5% 93% 2%;
     row-gap: 40px;
 
-    padding: 30px 2% 30px 5%;
+    padding: 30px 0 30px 0;
     background-color: white;
 }
 #grouppic{
-    grid-column: 1/span 1;
+    grid-column: 2/span 1;
 }
 .Explain{
-    grid-column: 3/ span 1;
+    grid-column: 2/ span 1;
     text-align:justify;
     text-justify:auto;
 }
+
+
+.huntcontent{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    text-align:justify;
+    text-justify:auto;
+
+    padding: 0 ;
+}
+
 .urlans{
     grid-column: 2/span 1;
     color: transparent;
@@ -118,14 +135,7 @@ main h1{
 
     margin-top: 15%;
 }
-.huntcontent{
-    display: grid;
-    grid-template-columns: 75% 25%;
-    text-align:justify;
-    text-justify:auto;
 
-    padding: 0 ;
-}
 
 .challenge{
     padding: 20px 5% 20px 5%;

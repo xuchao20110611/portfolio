@@ -71,7 +71,7 @@ footer{
     text-align: center;
     padding: 10px;
     font-family: "Raleway";
-    margin-top: 10px;
+
 }
 
 
@@ -81,7 +81,12 @@ footer{
     font-family: sans-serif;
     margin-top: 15px;
 }
-
+a:visited{
+    color: #551A8B;
+}
+a{
+    color: #551A8B;
+}
 .title{
     text-decoration: underline;
     text-align: center;
