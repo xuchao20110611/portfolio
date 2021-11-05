@@ -113,6 +113,7 @@ main h1{
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    flex-wrap: nowrap;
 }
 #self_introduction_selfie{
     width: 40%;
