@@ -148,6 +148,18 @@ main h1{
 
 
 
+@media screen and (min-width: 850px)
+{
+    /*for tablet*/
+    nav ul{
+
+        flex-direction: row;
+
+
+    }
+}
+
+
 /*
 html{
     scroll-behavior: smooth;

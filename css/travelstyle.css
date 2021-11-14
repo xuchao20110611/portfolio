@@ -102,7 +102,7 @@ main{
 }
 
 
-.spot{
+.spotl, .spotr{
     width:90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -111,6 +111,7 @@ main{
     border-width: 2px;
     border-color: black;
     padding: 10px 5px 10px 5px;
+    grid-column: 2/span 1;
 }
 .titleofspots{
     margin: 10px 0 10px 0;
@@ -167,9 +168,6 @@ img:hover{
 }
 
 
-.spot{
-    grid-column: 2/span 1;
-}
 
 
 
@@ -247,6 +245,34 @@ img:hover{
 
 
 
+
+@media screen and (min-width: 850px)
+{
+    /*for tablet*/
+    nav ul{
+
+        flex-direction: row;
+
+    }
+
+
+    .spots{
+        display:grid;
+        grid-template-columns: 5% 43% 4% 43% 5%;
+        grid-template-rows: auto auto auto;
+        row-gap: 15px;
+        margin-top: 3%;
+
+    }
+    .spotl{
+        grid-column: 2/span 1;
+    }
+    .spotr{
+        grid-column: 4 / span 1;
+    }
+
+
+}
 
 /*
 html{
