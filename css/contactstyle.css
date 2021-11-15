@@ -129,7 +129,7 @@ html{
 }
 
 
-@media screen and (min-width: 850px)
+@media screen and (min-width: 750px)
 {
     /*for tablet*/
     nav ul{

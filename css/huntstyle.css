@@ -148,7 +148,7 @@ main h1{
 
 
 
-@media screen and (min-width: 850px)
+@media screen and (min-width: 750px)
 {
     /*for tablet*/
     nav ul{
@@ -157,6 +157,24 @@ main h1{
 
 
     }
+    .groupintro{
+        display: grid;
+        grid-template-columns: 3% 45% 4% 45% 3%;
+        row-gap: 40px;
+
+        padding: 30px 0 30px 0;
+        background-color: white;
+    }
+
+    #grouppic{
+        grid-column: 2/span 1;
+    }
+    .Explain{
+        grid-column: 4/ span 1;
+        text-align:justify;
+        text-justify:auto;
+    }
+
 }
 
 
